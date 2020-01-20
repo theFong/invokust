@@ -3,7 +3,6 @@
 import os
 
 from locust.main import load_locustfile
-from locust.util.time import parse_timespan
 
 def create_settings(from_environment=False, locustfile=None,
         classes=None, host=None, num_clients=None,
